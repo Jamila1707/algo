@@ -1,0 +1,21 @@
+ALGORITHM lenght_of_sentence
+VAR
+length: STRING;
+v,w,c,i: INTEGER:=0;
+BEGIN
+REPEAT
+write('entrer une phrase')
+read(ph)
+UNTIL ph(ph length):=".";
+c:=ph+length;
+FOR i FROM 0 TO ph length  DO
+    IF ph[1]=" "; THEN
+        w:=w+1;
+    END_IF
+    IF ph[i]= (a,e,i,o,u,y); THEN
+        v:=v+1;
+    END_IF
+END_FOR
+write(c, w, v);
+END
+
